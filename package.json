@@ -23,5 +23,12 @@
   },
   "bin": {
     "win-min": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiukun/win-min.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiukun/win-min/issues"
   }
 }
