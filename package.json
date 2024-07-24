@@ -1,0 +1,27 @@
+{
+  "name": "win-min",
+  "version": "1.1.1",
+  "description": "node js,css,gzip压缩工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mickey",
+  "license": "ISC",
+  "dependencies": {
+    "@node-minify/core": "^8.0.6",
+    "@node-minify/cssnano": "^8.0.6",
+    "@node-minify/html-minifier": "^8.0.6",
+    "@node-minify/jsonminify": "^8.0.6",
+    "@node-minify/terser": "^8.0.6",
+    "find": "^0.3.0",
+    "foreach": "^2.0.6",
+    "fs-extra": "^11.2.0",
+    "gulp": "^5.0.0",
+    "path": "^0.12.7",
+    "yargs": "17.7.0"
+  },
+  "bin": {
+    "win-min": "index.js"
+  }
+}
